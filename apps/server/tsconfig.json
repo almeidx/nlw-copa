@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "dist",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"rootDir": "src"
+	},
+	"extends": "../../tsconfig.json"
+}
