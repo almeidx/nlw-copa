@@ -13,15 +13,15 @@
 		"format": "turbo run format --parallel",
 		"postinstall": "husky install .github/husky",
 		"lint": "turbo run lint --parallel",
-		"server": "yarn apps/server",
+		"server": "yarn workspace server",
 		"update": "yarn upgrade-interactive",
-		"web": "yarn apps/web"
+		"web": "yarn workspace web"
 	},
 	"devDependencies": {
 		"@types/node": "^18.11.9",
 		"eslint": "^8.26.0",
 		"eslint-config-neon": "^0.1.39",
-		"husky": "^8.0.0",
+		"husky": "^8.0.1",
 		"prettier": "^2.7.1",
 		"turbo": "^1.6.3",
 		"typescript": "~4.8.4"

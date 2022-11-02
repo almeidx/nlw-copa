@@ -11,7 +11,11 @@
 		"no-duplicate-imports": 2,
 		"no-warning-comments": 0,
 		"prefer-named-capture-group": 0,
-		"tailwindcss/no-custom-classname": 0
+		"tailwindcss/no-custom-classname": 0,
+
+		"no-alert": 0,
+		"react/jsx-no-bind": 0,
+		"unicorn/consistent-function-scoping": 0
 	},
 	"settings": {
 		"react": {

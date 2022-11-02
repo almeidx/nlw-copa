@@ -3,8 +3,7 @@
 		"baseUrl": ".",
 		"outDir": "dist",
 		"resolveJsonModule": true,
-		"esModuleInterop": true,
-		"rootDir": "src"
+		"esModuleInterop": true
 	},
 	"extends": "../tsconfig.json"
 }
