@@ -6,5 +6,5 @@
 		"esModuleInterop": true,
 		"rootDir": "src"
 	},
-	"extends": "../../tsconfig.json"
+	"extends": "../tsconfig.json"
 }
