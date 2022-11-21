@@ -1,0 +1,15 @@
+{
+	"extends": [],
+	"plugins": [],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"import/extensions": 0,
+		"no-restricted-globals": 0,
+		"n/prefer-global/process": 0,
+		"require-atomic-updates": 0
+	}
+}

@@ -9,11 +9,11 @@
 		"build:fast": "esbuild $(find src -type f -name '*.ts') --outdir=dist/src --platform=node --target=node16 --format=esm",
 		"format": "prettier --write . && eslint src --ext ts --fix",
 		"lint": "prettier --check . && eslint src --ext ts",
+		"seed": "node dist/prisma/seed.js",
 		"start": "cross-env NODE_ENV=production node --enable-source-maps .",
 		"start-dev": "yarn build:fast && cross-env NODE_ENV=development node --enable-source-maps .",
 		"watch": "yarn prebuild && cross-env NODE_ENV=development tsc-watch --onSuccess \"node --enable-source-maps .\"",
-		"watch:fast": "esbuild $(find src -type f -name '*.ts') --outdir=dist/src --platform=node --target=node16 --format=esm --watch",
-		"seed": "node dist/prisma/seed.js"
+		"watch:fast": "esbuild $(find src -type f -name '*.ts') --outdir=dist/src --platform=node --target=node16 --format=esm --watch"
 	},
 	"dependencies": {
 		"@fastify/cors": "^8.1.1",
@@ -37,6 +37,5 @@
 	},
 	"prisma": {
 		"seed": "node dist/prisma/seed.js"
-	},
-	"packageManager": "yarn@3.2.4"
+	}
 }

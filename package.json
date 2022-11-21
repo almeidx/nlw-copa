@@ -13,6 +13,7 @@
 		"format": "turbo run format --parallel",
 		"postinstall": "husky install .github/husky",
 		"lint": "turbo run lint --parallel",
+		"mobile": "yarn workspace mobile",
 		"server": "yarn workspace server",
 		"update": "yarn upgrade-interactive",
 		"web": "yarn workspace web"
