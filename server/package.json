@@ -19,7 +19,7 @@
 		"@fastify/cors": "^8.1.1",
 		"@prisma/client": "4.5.0",
 		"cross-env": "^7.0.3",
-		"fastify": "^4.9.2",
+		"fastify": "^4.10.2",
 		"tslib": "^2.4.1"
 	},
 	"devDependencies": {
